@@ -8,6 +8,10 @@ using UnityEngine.SceneManagement;
 
 public class MenuUiHandler : MonoBehaviour
 {
+    public void StartNew()
+    {
+        SceneManager.LoadScene(1);
+    }
     public void Exit()
     {
         #if UNITY_EDITOR
